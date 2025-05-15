@@ -1,0 +1,235 @@
+import { Wine } from '@/types/wine';
+
+export const wines: Wine[] = [
+  {
+    id: '1',
+    name: 'Brunello di Montalcino',
+    region: 'Toscana',
+    country: 'Italia',
+    year: 2015,
+    type: 'RED',
+    rating: 9.0,
+    image: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Tenuta di Montalcino',
+      type: 'red',
+      grape: 'Sangiovese',
+      body: 'Corposo',
+      structure: 'Complesso',
+      tannins: 'Intenso',
+      sweetness: 'Secco',
+      aroma: 'Speziato',
+      description: 'Il Brunello di Montalcino è caratterizzato da tannini potenti, aromi di frutti rossi, spezie e note di legno. Richiede tempo per esprimere il suo potenziale.',
+      pairings: 'Brasati, tartufi, formaggi stagionati',
+      conservation: '15-25 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '2',
+    name: 'Barolo',
+    region: 'Piemonte',
+    country: 'Italia',
+    year: 2016,
+    type: 'RED',
+    rating: 9.0,
+    image: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Giacomo Conterno',
+      type: 'red',
+      grape: 'Nebbiolo',
+      body: 'Corposo',
+      structure: 'Complesso',
+      tannins: 'Intenso',
+      sweetness: 'Secco',
+      aroma: 'Speziato',
+      description: 'Denominato "re dei vini e vino dei re", il Barolo è caratterizzato da tannini potenti, aromi di rosa, catrame e spezie. Richiede tempo per esprimere il suo potenziale.',
+      pairings: 'Brasati, tartufi, formaggi stagionati',
+      conservation: '15-30 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '3',
+    name: 'Amarone della Valpolicella',
+    region: 'Veneto',
+    country: 'Italia',
+    year: 2017,
+    type: 'RED',
+    rating: 8.0,
+    image: 'https://images.unsplash.com/photo-1569919659476-f0852f6834b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Bertani',
+      type: 'red',
+      grape: 'Corvina, Rondinella',
+      body: 'Corposo',
+      structure: 'Complesso',
+      tannins: 'Medio',
+      sweetness: 'Semi-secco',
+      aroma: 'Fruttato',
+      description: 'L\'Amarone è prodotto con uve appassite che conferiscono al vino un carattere ricco e concentrato, con note di frutta secca, cioccolato e spezie.',
+      pairings: 'Selvaggina, formaggi stagionati, cioccolato fondente',
+      conservation: '10-20 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '4',
+    name: 'Chianti Classico Riserva',
+    region: 'Toscana',
+    country: 'Italia',
+    year: 2018,
+    type: 'RED',
+    rating: 7.0,
+    image: 'https://images.unsplash.com/photo-1568213816046-0a1665a0b8b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Antinori',
+      type: 'red',
+      grape: 'Sangiovese',
+      body: 'Medio-corposo',
+      structure: 'Equilibrato',
+      tannins: 'Medio',
+      sweetness: 'Secco',
+      aroma: 'Fruttato',
+      description: 'Il Chianti Classico Riserva offre aromi di ciliegia, viola, erbe e spezie con una struttura elegante e tannini ben integrati.',
+      pairings: 'Pasta con ragù, bistecca alla fiorentina, formaggi stagionati',
+      conservation: '8-15 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '5',
+    name: 'Primitivo di Manduria',
+    region: 'Puglia',
+    country: 'Italia',
+    year: 2019,
+    type: 'RED',
+    rating: 7.0,
+    image: 'https://images.unsplash.com/photo-1566754436893-98224ee84a07?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'San Marzano',
+      type: 'red',
+      grape: 'Primitivo',
+      body: 'Corposo',
+      structure: 'Robusto',
+      tannins: 'Medio',
+      sweetness: 'Semi-secco',
+      aroma: 'Fruttato',
+      description: 'Il Primitivo di Manduria è un vino ricco e potente con note di frutta matura, spezie e cioccolato. Offre un finale lungo e persistente.',
+      pairings: 'Carni alla griglia, formaggi stagionati, cioccolato',
+      conservation: '5-10 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '6',
+    name: 'Vermentino di Sardegna',
+    region: 'Sardegna',
+    country: 'Italia',
+    year: 2020,
+    type: 'WHITE',
+    rating: 7.5,
+    image: 'https://images.unsplash.com/photo-1566754436893-98224ee84a07?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Sella & Mosca',
+      type: 'white',
+      grape: 'Vermentino',
+      body: 'Medio',
+      structure: 'Fresco',
+      tannins: 'Assenti',
+      sweetness: 'Secco',
+      aroma: 'Fruttato',
+      description: 'Vino bianco fresco e aromatico con note di agrumi, erbe mediterranee e un caratteristico finale minerale e salino.',
+      pairings: 'Frutti di mare, pesce alla griglia, antipasti leggeri',
+      conservation: '2-4 anni in condizioni ottimali'
+    }
+  },
+  // Adding more wines to ensure we have all the types needed for pairings
+  {
+    id: '7',
+    name: 'Pinot Nero',
+    region: 'Alto Adige',
+    country: 'Italia',
+    year: 2019,
+    type: 'RED',
+    rating: 8.0,
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Cantina Tramin',
+      type: 'red',
+      grape: 'Pinot Nero',
+      body: 'Leggero',
+      structure: 'Elegante',
+      tannins: 'Leggero',
+      sweetness: 'Secco',
+      aroma: 'Fruttato',
+      description: 'Il Pinot Nero dell\'Alto Adige è un vino elegante con aromi di frutti rossi, note floreali e una struttura delicata. Perfetto per carni bianche e piatti leggeri.',
+      pairings: 'Carni bianche, pollame, funghi, formaggi a pasta molle',
+      conservation: '5-8 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '8',
+    name: 'Chardonnay',
+    region: 'Friuli',
+    country: 'Italia',
+    year: 2021,
+    type: 'WHITE',
+    rating: 8.0,
+    image: 'https://images.unsplash.com/photo-1556442378-d9e5d503a25e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Livio Felluga',
+      type: 'white',
+      grape: 'Chardonnay',
+      body: 'Corposo',
+      structure: 'Complesso',
+      tannins: 'Assenti',
+      sweetness: 'Secco',
+      aroma: 'Fruttato',
+      description: 'Chardonnay corposo con note di frutta tropicale, vaniglia e un tocco di burro. La fermentazione in barrique conferisce complessità e struttura.',
+      pairings: 'Pesce al forno, carni bianche, risotti cremosi',
+      conservation: '3-6 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '9',
+    name: 'Prosecco',
+    region: 'Veneto',
+    country: 'Italia',
+    year: 2022,
+    type: 'SPARKLING',
+    rating: 7.5,
+    image: 'https://images.unsplash.com/photo-1590590570140-53c8aeb7c1c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Bisol',
+      type: 'sparkling',
+      grape: 'Glera',
+      body: 'Leggero',
+      structure: 'Fresco',
+      tannins: 'Assenti',
+      sweetness: 'Brut',
+      aroma: 'Fruttato',
+      description: 'Prosecco fresco e vivace con note di mela verde, pera e fiori bianchi. Perlage fine e persistente, ideale come aperitivo o con piatti leggeri.',
+      pairings: 'Antipasti, frutti di mare, aperitivi',
+      conservation: '1-2 anni in condizioni ottimali'
+    }
+  },
+  {
+    id: '10',
+    name: 'Rosato di Toscana',
+    region: 'Toscana',
+    country: 'Italia',
+    year: 2021,
+    type: 'ROSÉ',
+    rating: 7.0,
+    image: 'https://images.unsplash.com/photo-1558901591-9cb536f3e130?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    details: {
+      winery: 'Castello di Ama',
+      type: 'rose',
+      grape: 'Sangiovese',
+      body: 'Medio',
+      structure: 'Fresco',
+      tannins: 'Leggero',
+      sweetness: 'Secco',
+      aroma: 'Fruttato',
+      description: 'Rosato elegante con aromi di fragola, melograno e note floreali. Fresco e sapido, con una buona struttura e un finale persistente.',
+      pairings: 'Antipasti, pesce, carni bianche, pizza',
+      conservation: '2-3 anni in condizioni ottimali'
+    }
+  }
+];
